@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+    integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <title>myLibrary App</title>
+</head>
+
+<body>
+
+  <div class="library-container">
+    <header class="library-header">
+      <h1>My Libary</h1>
+      <p>Hello, I'm Alex Roarke. This is a project I did for <a href="https://theodinproject.com">The Odin
+          Project</a>.<br> I
+        hope you'll like it!</p>
+    </header>
+    <form action="#">
+      <div class="form">
+
+        <div class="col">
+          <label for="book">Book</label>
+          <input id="book" type="text">
+        </div>
+        <div class="col">
+          <label for="author">Author</label>
+          <input id="author" type="text">
+        </div>
+        <div class="col">
+          <label for="pages">Pages</label>
+          <input id="pages" type="text">
+        </div>
+        <div class="col">
+          <label for="progress">Progress</label>
+          <select name="progress" id="progress">
+            <option value="Read">Read</option>
+            <option value="Want To Read">Want To Read</option>
+          </select>
+        </div>
+        <button class="submit-button" id="submit">Submit</button>
+      </div>
+    </form>
+      <table class="table">
+          <tbody>
+            <tr>
+              <th>Name</th>
+              <th>Author</th>
+              <th>Pages</th>
+              <th>Progress</th>
+              <th>Delete</th>
+            </tr>
+          </tbody>
+          <tbody class="table-body">
+<!-- JavaScript will handle -->
+    </tbody>
+  </div>
+  </table>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
